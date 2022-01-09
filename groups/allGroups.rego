@@ -1,5 +1,3 @@
 package groups
 
-allGroups {
-	data.AzureAD.groups
-}
+allGroups := data.AzureAD.groups

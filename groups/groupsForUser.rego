@@ -3,5 +3,5 @@ package groups
 default groupsForUser = []
 
 groupsForUser {
-	data.AzureAD.groups
+	_ := data.AzureAD.groups
 }

@@ -1,3 +1,7 @@
 package groups
 
-default hello = "jap"
+default groupsForUser = []
+
+groupsForUser {
+	data.AzureAD.groups
+}

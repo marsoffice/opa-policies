@@ -1,4 +1,4 @@
-package usr
+package all
 
 default getAllData = null
 
